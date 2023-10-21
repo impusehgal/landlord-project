@@ -11,7 +11,7 @@ The spreadsheets come from the following sources:
 
   - [`acris_sales_2020-2022.csv`](data/acris_sales_2020-2022.csv): Raw data on 2,003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
   - [`file_201_data_sm_tract.csv`](file_201_data_sm_tract.csv): Raw data from the Tax Commission Income & Expenses forms, submitted by building owners to the tax commission seeking revisions on their tax payments. This file contains information from 26,887 forms submitted to the tax commission in the year 2021.
-  - [data buildings addresses.csv](https://github.com/impusehgal/landlord-project/blob/main/data/buildings%20addresses.csv): This raw data compiled from the New York Department of Finance contains the addresses for the 17 buildings found to have the highest cap rates across New York City. The data file also includes information on the dates these buildings were last sold, sales prices, and the limited liability companies (LLCs) they are registered under.
+  - [data buildings addresses.csv](https://github.com/impusehgal/landlord-project/blob/main/data/buildings%20addresses.csv: This raw data compiled from the New York Department of Finance contains the addresses for the 17 buildings found to have the highest cap rates across New York City. The data file also includes information on the dates these buildings were last sold, sales prices, and the limited liability companies (LLCs) they are registered under.
 
 
 These spreadsheets contain, among others, the following columns relevant to the analysis:
