@@ -4,17 +4,23 @@ This repository contains data, analytic code, and findings that support portions
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This analysis is based on three spreadsheets.
 
 The spreadsheets come from the following sources:
 
-- Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - [`acris_sales_2020-2022.csv`](data/acris_sales_2020-2022.csv): Raw data on 2,003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
+  - [`file_201_data_sm_tract.csv`](file_201_data_sm_tract.csv): Raw data from the Tax Commission Income & Expenses forms, submitted by building owners to the tax commission seeking revisions on their tax payments. This file contains information from 26,887 forms submitted to the tax commission in the year 2021.
+  -   - [`buildings addresses.csv`] This raw data compiled from the New York Department of Finance contains the addresses for the 17 buildings found to have the highest cap rates across New York City. The data file also includes information on the dates these buildings were last sold, sales prices, and the LLCs they are registered under.
 
-Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+These spreadsheets contain, among others, the following columns relevant to the analysis:
+
+- `price_per_bldg` — The sale price of the buildings represented in the acris file.
+- `TOTAL INCOME FROM REAL ESTATE` — The annual business income for building owners in the 201 file, including rents, billboards, and ancillary services. 
+- `TOTAL EXPENSES` — The total annual expenses for owners represented in the 201 file, such as maintenance and management expenses.
+- Borough, Block, and Lot: both files contain information on the BBL of each building, a unique identifier for property plots in New York City.
+
+
 
 ## Methodology
 
