@@ -1,6 +1,7 @@
-# Analysis of TK data set — MM/YYYY to MM/YYYY
+# Analysis of rent-stabilized buildings with highest cap rates — 2020 to 2022
+ 
+This repository contains data, analytic code, and findings on the capitalization rates of buildings across New York City. This is an important metric that is used to ascertain how much money a building is generating, and is used as a proxy for the riskiness of a real estate investment.
 
-This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
