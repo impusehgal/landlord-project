@@ -24,16 +24,17 @@ These spreadsheets contain, among others, the following columns relevant to the 
 
 ## Methodology
 
-The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following analyses:
+The notebook [101023_Fall Analysis.ipynb] performs the following analyses:
 
-##### Part 1: TKTK
+##### Part 1: Import and Cleaning Data
 
-- Description of what you did with the data
+Both spreadsheets were imported into Python and cleaned of duplicates. Both files contained unexpected duplicates--perhaps due to erroneous filings or multiple sales within the two-year period. In order to simplify the analysis, we omitted these data using the drop_duplicates() function.
 
+##### Part 2: Calculating the cap rates
 
-##### Part 2: TKTK
+The two data sets were merged into a single data frame for the 241 unique BBLs that are represented on both data sets. Buildings that do not have enough information to calculate a capitalization rate were dropped using the dropna() function. Using the combined dataframe, the columns for income, expenses, and building cost were used to calculate the capitalization ratio for each building, using the formula CR=(I-E)/PPE.
 
-- Description of what you did with the data
+##### Part 3: Honing in on the buildings with the largest cap-rates
 
 
 ## Outputs
