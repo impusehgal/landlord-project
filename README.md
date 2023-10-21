@@ -47,4 +47,6 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com.
+Nicholas Morgan at nikolaimorgan@protonmail.com.
+Impu Sehgal at impu.sehgal42@journalism.cuny.edu.
+Jonnathan Pulla Velecela at j.pullavelecela32@journalism.cuny.edu.
