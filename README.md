@@ -45,7 +45,7 @@ The two data sets were merged into a single data frame for the 241 unique BBLs t
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
+The output folder contains the merged data from the two spreadsheets, and the capitalization rate for 241 buildings represented on both sheets: output/capitalizationrates.csv. Another file, output/ResultsByBoro.csv contains the mean and median capitalization rates for buildings in this analysis, sorted by borough. The final folder out/allbuildingsplusbbl contains all of the building as well as “borough building lot” data.
 
 ## Running the analysis yourself
 
@@ -60,6 +60,8 @@ You can run the analysis yourself. To do so, you'll need the following installed
 All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). The data file in the output/ directory is available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license. All files in the data/ directory are released into the public domain.
 
 ## Feedback / Questions?
+
+This analysis is a follow-up of a previous analysis done in collaboration with Andrew Ancheta(andrew.ancheta@gmail.com): [https://github.com/2ndrew2ncheta/Advanced-Data-Group-Project-3](url)
 
 Contact: 
   - Nicholas Morgan at nikolaimorgan@protonmail.com.
