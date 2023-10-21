@@ -35,8 +35,13 @@ Both spreadsheets were imported into Python and cleaned of duplicates. Both file
 
 The two data sets were merged into a single data frame for the 241 unique BBLs that are represented on both data sets. Buildings that do not have enough information to calculate a capitalization rate were dropped using the dropna() function. Using the combined dataframe, the columns for income, expenses, and building cost were used to calculate the capitalization ratio for each building, using the formula CR=(I-E)/PPE.
 
-##### Part 3: Honing in on the buildings with the largest cap-rates
+##### Part 3: Honing in on the buildings with the largest cap-rates:
 
+3A) Using this data on the 241 buildings in the dataset, we found that there was an average cap-rate of 59%, but the top 17 buildings were the ones most responsible for raising the average higher. Within the dataset, buildings in Brooklyn have the overall highest cap-rates, which we chose to zero in on.
+
+3B) The first four buildings in this list stood out in particular for all having cap-rates  well-over 90%, which would suggest that the landlords should have been able to recover the cost of their investment within a year if accurate. In addition to the top four, the following thirteen all have cap-rates over 10%, which is higher than the average that is usually considered profitable for investors.
+
+3C) The top five buildings in this list share a set of commonalities: they were sold together on the same date (12/28/2020) potentially as a packet, and they are owned by a set of LLCs that share the same owners. This would suggest that the highest cap-rates in the dataset are being driven largely by just one duo of landlords; Robert Izsak, who is included in the New York City Public Advocate's list of Worst Landlords in 2022, and Maxwell Rovt, the son of Alexander Rovt, a politically well-connected billionaire.
 
 ## Outputs
 
