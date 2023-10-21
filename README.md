@@ -61,7 +61,7 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-This analysis is a follow-up of a previous analysis done in collaboration with Andrew Ancheta(andrew.ancheta@gmail.com): [https://github.com/2ndrew2ncheta/Advanced-Data-Group-Project-3](url)
+This analysts serves as a previous one done in collaboration with Andrew Ancheta (andrew.ancheta@gmail.com): [https://github.com/2ndrew2ncheta/Advanced-Data-Group-Project-3](url)
 
 Contact: 
   - Nicholas Morgan at nikolaimorgan@protonmail.com.
